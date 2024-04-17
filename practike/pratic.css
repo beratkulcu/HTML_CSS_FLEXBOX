@@ -1,0 +1,51 @@
+
+
+.klas a:hover{
+    color:whitesmoke;
+    text-decoration: none;
+    
+}
+.klas a{
+   
+    text-decoration: none;
+    color: red;
+   
+}
+.klas{
+    text-align: center;
+    font-size: 50px;
+}
+
+.klas a p{
+background-color: black;
+}
+
+.team{
+    display: none;
+}
+.klas a:hover + .team{
+    display: block;
+}
+.klas .team  li.gs{
+    background-color:  red;
+}
+.klas .team li.fb{
+        background-color: yellow;
+}
+.klas .team li.bjk{
+    background-color: black;
+    color: white;
+}
+.klas .team li{
+list-style-type: none;
+text-align: center;
+text-transform: uppercase;
+
+}
+.klas .team::after{
+    content: url(../assets/image/PHOTO-2024-03-28-21-52-13\ 2.jpg);
+}
+.klas .bjk:first-child::first-letter{
+    background-color: tomato;
+    font-size: 100px;
+}

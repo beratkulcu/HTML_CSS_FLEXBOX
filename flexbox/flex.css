@@ -1,0 +1,23 @@
+body{
+
+}
+.flex-container{
+    display: flex; /* kutular ve ayırır. */
+    background-color: aqua; 
+   flex-direction: row; /* bu özellik default row olarak gelır flex kutusunun nerede olacagı belırlenır column yatay row dıkye */
+    flex-wrap: wrap; /* ekranı kuculttugumuzde sarmal bir yapı olusturur kucultme ıle bırlıktek kutularda kuculur . */
+    justify-content:space-evenly; /* kutular arası yayılma yapılır . aralardakı ve sonlardakı bolsuk ıcın  */
+    height: 500px;
+    align-items: baseline;
+    align-content: center;    
+    align-content: space-around;
+}
+
+.flex-container > div{
+    padding: 25px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
